@@ -3,7 +3,16 @@ Tareas de SEMINARIO DE SOLUCION DE PROBLEMAS DE TRADUCTORES DE LENGUAJES II.
 
 Actualización del analizador léxico-sintáctico (18/09/2022).
 
-Ahora se cargo la tabla final que vimos en clase.
+Ahora se cargo la tabla final que vimos en clase, con el ejemplo propuesto también en clase (string cadena1 = "int a ; int main ( ) { int b ; }";).
+Existe un detalle meramente estético, al imprimir algunas salidas, se imprimen otros símbolos que no pertenecen a la cadena. 
+Sin embargo, como ya se mencionó, esto no afecta su funcionamiente.
+El último detalle es que quedan por agregar las reglas que no se usaron para el ejemplo.
+
+Resultados: 
+
+![image](https://user-images.githubusercontent.com/111928650/190950474-217d4178-40f3-4bef-918d-05d65b7d7aca.png)
+
+
 
 Actualización del analizador sintáctico (12/09/2022). 
 
