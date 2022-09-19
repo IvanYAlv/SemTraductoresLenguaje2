@@ -1,6 +1,10 @@
 # SemTraductoresLenguaje2
 Tareas de SEMINARIO DE SOLUCION DE PROBLEMAS DE TRADUCTORES DE LENGUAJES II.
 
+Actualización del analizador léxico-sintáctico (18/09/2022).
+
+Ahora se cargo la tabla final que vimos en clase.
+
 Actualización del analizador sintáctico (12/09/2022). 
 
 La pila ahora es una pila de objetos, en la siguiente captura se aprecia que sigue funcionando correctamente:
