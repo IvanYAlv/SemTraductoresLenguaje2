@@ -1,6 +1,27 @@
 # SemTraductoresLenguaje2
 Tareas de SEMINARIO DE SOLUCION DE PROBLEMAS DE TRADUCTORES DE LENGUAJES II.
 
+Actualización del analizador léxico-sintáctico-semántico (24/09/2022).
+Por practicidad (generación de código similar en otra asignatura), hubo un cambio de lenguaje, de c++ a python.
+
+.- Mostrar árbol sintactico: 
+
+  Entrada: 
+  
+  ![image](https://user-images.githubusercontent.com/111928650/197617926-2c76c06c-ef26-4cfb-820e-3d22dd2245ca.png)
+
+
+![image](https://user-images.githubusercontent.com/111928650/197617652-8c934247-5d2f-42c3-b6ae-717d8f82b9bc.png)
+
+...
+
+![image](https://user-images.githubusercontent.com/111928650/197617777-14333dec-6ee2-439a-a890-703a75ce15c4.png)
+
+.- Tabla de símbolos: 
+
+![image](https://user-images.githubusercontent.com/111928650/197618290-371d8018-76cf-43c1-a141-c4645f0b79e7.png)
+
+
 Actualización del analizador léxico-sintáctico (18/09/2022).
 
 Ahora se cargó la tabla final que vimos en clase, con el ejemplo propuesto también en clase (int a ; int main ( ) { int b ; }).
