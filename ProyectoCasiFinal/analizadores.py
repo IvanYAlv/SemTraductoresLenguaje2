@@ -1796,7 +1796,29 @@ class analizador:
 
 #--------------------------------------------------------------------------------------------------
 
-cad= "int a;\nint suma(int a, int b){\nreturn a + b;\n}\nint main(){\n float a;\n int b;\n int c;\n c = suma(8, 9);\n}"
+#cad= "int a;\nint suma(int a, int b){\nreturn a + b;\n}\nint main(){\n float a;\n int b;\n int c;\n c = suma(8, 9);\n}"
+
+'''Ejemplo 1: '''
+'''cad = "int main(){\
+\nfloat a;\
+\nint b;\
+\nint c;\
+\nc = a+b;\
+\nc = suma(8,9);\
+\n}"'''
+'''Ejemplo 2: '''
+'''cad = "int a;\n\
+int suma(int a, int b){\
+\nreturn a+b;\
+\n}\
+\nint main(){\
+\nfloat a;\
+\nint b;\
+\nint c;\
+\nc = a+b;\
+\nc = suma(8.5,9.9);\
+\n}"'''
+
 gr.txtE.insert(gr.END, cad)
 
 divcad = cad.split()
