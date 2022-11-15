@@ -1,8 +1,45 @@
 # SemTraductoresLenguaje2
 Tareas de SEMINARIO DE SOLUCION DE PROBLEMAS DE TRADUCTORES DE LENGUAJES II.
 
-Actualización del analizador léxico-sintáctico-semántico (24/09/2022).
-Por practicidad (generación de código similar en otra asignatura), hubo un cambio de lenguaje, de c++ a python.
+Actualización del analizador léxico-sintáctico-semántico (14/11/2022).
+
+Se analizaron los dos ejemplos propuestos para la actividad: 
+
+'''Ejemplo 1: '''
+'''cad = "int main(){\
+\nfloat a;\
+\nint b;\
+\nint c;\
+\nc = a+b;\
+\nc = suma(8,9);\
+\n}"'''
+
+'''Ejemplo 2: '''
+'''cad = "int a;\n\
+int suma(int a, int b){\
+\nreturn a+b;\
+\n}\
+\nint main(){\
+\nfloat a;\
+\nint b;\
+\nint c;\
+\nc = a+b;\
+\nc = suma(8.5,9.9);\
+\n}"'''
+
+Resultados: 
+
+![Error_FuncSuma](https://user-images.githubusercontent.com/111928650/201812490-cdfda0dc-b2fa-4dd6-b330-8465c5329824.png)
+
+  Este nos muestra el error al hacer la llamada a la función "suma", la cual no está declarada.
+  
+![ErrorTipos](https://user-images.githubusercontent.com/111928650/201812648-f0c0c505-69a3-488a-8956-77b89910e5d6.png)
+
+  En este se nos muestra un error por los tipos de datos en los parametros de la función "suma".
+  
+-------------------------------------------------------------------------------------------------------------------------------
+
+Nota: Por practicidad (generación de código similar en otra asignatura), hubo un cambio de lenguaje, de c++ a python.
 
 .- Mostrar árbol sintactico: 
 
