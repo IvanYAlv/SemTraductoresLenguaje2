@@ -1,7 +1,11 @@
 # SemTraductoresLenguaje2
 Tareas de SEMINARIO DE SOLUCION DE PROBLEMAS DE TRADUCTORES DE LENGUAJES II.
 
-Actualización del analizador léxico-sintáctico-semántico (14/11/2022).
+Actualización del analizador léxico-sintáctico-semántico (05/12/2022).
+
+Video ejecutando la fase final del proyecto: https://drive.google.com/file/d/1v6yHwBrMx31ZZI0p1Z3fO0iVbJwY8s8G/view?usp=sharing
+
+NOTA: el comando "sudo apt-get install nasm" también es necesario, olvidé mencionarlo en el veideo.
 
 Se analizaron los dos ejemplos propuestos para la actividad: 
 
